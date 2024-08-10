@@ -1,0 +1,122 @@
+.todo-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 3%;
+    background-image: linear-gradient(100deg, #001214, #001f29);
+    color: white;
+    transition: 0.3s linear;
+    overflow: hidden;
+}
+
+.header,
+.form,
+.datetime {
+    margin: 0 1rem;
+    min-height: 10vh;
+    width: 100%;
+}
+
+.header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 3rem;
+    min-height: 25vh;
+    width: 100%;
+}
+
+section h1{
+    color: #fff;
+    font-size: 4.8rem;
+    text-align: center;
+}
+
+.todo-input{
+    color: black;
+    font-size: bold;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.date-time {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.todo-btn{
+    margin: 0 2rem;
+    color: yellow;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+form {
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: center;
+    margin: 15px 0;
+    padding: 0.8rem;
+    width: 100%;
+}
+
+form input {
+    padding: 10px;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    border: none;
+    outline: none;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    max-width: 500px;
+    transition: background-color 200ms ease-in-out;
+    width: 100%;
+    background-color: #f2f3f4;
+    color: var(--primary-color);
+}
+
+.delete-btn {
+    color: red;
+    align-items: ;
+
+}
+
+.check-btn {
+    color: green;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    
+}
+
+.clear-btn {
+    background-color: #e74c3c;
+    font-size: 1.6rem;
+    padding: 1rem 2.2rem;
+    border-radius: 0.3rem;
+    
+}
+
+.checkList {
+    text-decoration: line-through;
+}
+
+.notCheckList {
+    text-decoration: none;
+}
+
+.myUnOrdList {
+    background-color: rgb(75, 54, 134);
+    /* border-radius: 2rem; */
+    margin-bottom: 2rem;
+}
+
+.checked {
+    color: black;
+}
